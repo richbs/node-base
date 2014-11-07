@@ -32,5 +32,5 @@ describe('Controller: MainCtrl', function () {
     expect(scope.todos.length).toBe(1);
     scope.removeTodo(0);
     expect(scope.todos.length).toBe(0);    
-  })
+  });
 });
